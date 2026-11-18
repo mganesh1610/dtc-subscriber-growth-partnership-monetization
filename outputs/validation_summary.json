@@ -1,0 +1,171 @@
+{
+  "total_verified_public_records": 102438,
+  "dataset_provenance": {
+    "Telco-Customer-Churn.csv": {
+      "rows": 7043,
+      "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+      "verified": true
+    },
+    "global_streaming_titles.csv": {
+      "rows": 6234,
+      "sha256": "7df8166ec178f05b79ad9fbe2be95816bccf14c88dfe30423f60001894b377e5",
+      "verified": true
+    },
+    "world_bank_gdp.csv": {
+      "rows": 13979,
+      "sha256": "8d84ef6bcaccf740c01c5ed7566aae8f7b149d0e2c20001e441efd3cb5b2fa86",
+      "verified": true
+    },
+    "world_bank_cpi.csv": {
+      "rows": 11182,
+      "sha256": "182baa44c536079bea07bb8700c37c85441c3d7d5f8e6dd68fb92fcb4a7815e8",
+      "verified": true
+    },
+    "Hillstrom-Campaign.csv": {
+      "rows": 64000,
+      "sha256": "0e5893329d8b93cefecc571777672028290ab69865718020c78c7284f291aece",
+      "verified": true
+    }
+  },
+  "telco_cohort_highlights": {
+    "total_accounts": 7043,
+    "blank_total_charges_reconciled": 11,
+    "tier_summary": {
+      "Core_Access_Only": {
+        "accounts": 3544,
+        "churn_rate": 0.227991,
+        "avg_arpu": 43.756,
+        "avg_realized_ltv": 1091.9
+      },
+      "Dual_Streaming_Bundle": {
+        "accounts": 1940,
+        "churn_rate": 0.29433,
+        "avg_arpu": 93.2375,
+        "avg_realized_ltv": 4256.66
+      },
+      "Single_Streaming_Tier": {
+        "accounts": 1559,
+        "churn_rate": 0.314304,
+        "avg_arpu": 77.0779,
+        "avg_realized_ltv": 2519.92
+      }
+    },
+    "contract_summary": {
+      "Month-to-month": {
+        "accounts": 3875,
+        "churn_rate": 0.427097,
+        "avg_arpu": 66.3985
+      },
+      "One year": {
+        "accounts": 1473,
+        "churn_rate": 0.112695,
+        "avg_arpu": 65.0486
+      },
+      "Two year": {
+        "accounts": 1695,
+        "churn_rate": 0.028319,
+        "avg_arpu": 60.7704
+      }
+    }
+  },
+  "streaming_catalog_highlights": {
+    "total_titles": 6234,
+    "movies": 4265,
+    "tv_series": 1969
+  },
+  "hillstrom_promo_highlights": {
+    "total_records": 64000,
+    "control_cvr": 0.005726,
+    "treatment_cvr": 0.010681,
+    "abs_cvr_lift_pp": 0.4955,
+    "rel_cvr_lift_pct": 86.53,
+    "z_score": 6.24,
+    "multichannel_vs_single_ratio": 1.3546
+  },
+  "international_forecast_metrics": {
+    "markets_modeled": 12,
+    "region_quarters_modeled": 192,
+    "holdout_region_quarters": 96,
+    "walk_forward_mape_pct": 0.9484,
+    "seasonal_naive_mape_pct": 2.8538,
+    "forecast_error_reduction_pct": 66.77,
+    "ending_intl_subs_k": 5295.07,
+    "weighted_retail_arpu_usd": 9.71
+  },
+  "partnership_deal_optimization": {
+    "scenarios_evaluated": 6,
+    "optimal_deal": {
+      "deal_structure": "6_Q4_Tentpole_Fenced_Ad_Hybrid",
+      "launch_timing": "Q4_Guidance_Aligned",
+      "capital_market_aligned": true,
+      "wholesale_discount_pct": 22.0,
+      "effective_partner_arpu_usd": 9.92,
+      "gross_wholesale_adds_k": 428.02,
+      "retail_cannibalization_rate_pct": 11.0,
+      "cannibalized_retail_subs_k": 47.08,
+      "net_incremental_subs_k": 306.08,
+      "gross_partner_revenue_k": 42053.95,
+      "cannibalized_retail_rev_loss_k": 5485.62,
+      "incremental_operating_income_k": 28461.4
+    },
+    "unfenced_baseline_deal": {
+      "deal_structure": "2_Unfenced_Telco_Wholesale_Promo",
+      "launch_timing": "Q2_OffCycle",
+      "capital_market_aligned": false,
+      "wholesale_discount_pct": 38.0,
+      "effective_partner_arpu_usd": 6.02,
+      "gross_wholesale_adds_k": 347.38,
+      "retail_cannibalization_rate_pct": 41.0,
+      "cannibalized_retail_subs_k": 142.43,
+      "net_incremental_subs_k": 123.95,
+      "gross_partner_revenue_k": 19241.79,
+      "cannibalized_retail_rev_loss_k": 16594.17,
+      "incremental_operating_income_k": -4076.56
+    },
+    "cannibalization_reduction_pp": 30.0,
+    "incremental_oi_lift_vs_unfenced_k": 32537.96
+  },
+  "sql_reconciliation_audit": {
+    "gates": {
+      "sqlite_integrity_ok": true,
+      "zero_stock_flow_drift": true,
+      "zero_interquarter_continuity_drift": true,
+      "zero_revenue_ledger_drift": true,
+      "all_12_international_markets_loaded": true,
+      "all_7043_subscriber_cohorts_loaded": true
+    },
+    "gates_passed": 6,
+    "gates_total": 6,
+    "hub_rollup": [
+      {
+        "region_hub": "EMEA",
+        "markets": 5,
+        "start_subs_k": 1595.0,
+        "end_subs_k": 2112.62,
+        "cumulative_rev_m": 985.79
+      },
+      {
+        "region_hub": "APAC",
+        "markets": 4,
+        "start_subs_k": 1390.0,
+        "end_subs_k": 2016.48,
+        "cumulative_rev_m": 687.62
+      },
+      {
+        "region_hub": "LATAM",
+        "markets": 2,
+        "start_subs_k": 615.0,
+        "end_subs_k": 631.58,
+        "cumulative_rev_m": 202.97
+      },
+      {
+        "region_hub": "NAM-INTL",
+        "markets": 1,
+        "start_subs_k": 310.0,
+        "end_subs_k": 534.4,
+        "cumulative_rev_m": 266.84
+      }
+    ]
+  },
+  "ai_executive_brief_grounded": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "grounded_citations_verified": true,
+  "ungrounded_claims_count": 0,
+  "sql_gates_passed": "6/6",
+  "executive_deck_slides": [
+    {
+      "slide_number": 1,
+      "title": "International DTC Subscriber Growth & Forecast Performance",
+      "headline_takeaway": "Active international base reached 5,295.1K subscribers across 12 EMEA, APAC, LATAM, and NAM-Intl markets; walk-forward driver model achieved 0.95% holdout MAPE (66.8% error reduction vs. 2.85% seasonal baseline).",
+      "verified_metrics": {
+        "ending_intl_subs_k": 5295.07,
+        "walk_forward_mape_pct": 0.9484,
+        "forecast_error_reduction_pct": 66.77
+      }
+    },
+    {
+      "slide_number": 2,
+      "title": "Acquisition, Retention & Bundle Monetization Drivers",
+      "headline_takeaway": "Annual plan commitments lowered churn from 42.7% (month-to-month) to 11.3%, while dual-service streaming bundles retained 70.6% of accounts at higher ARPU.",
+      "verified_metrics": {
+        "month_to_month_churn_pct": 42.71,
+        "annual_plan_churn_pct": 11.27,
+        "dual_bundle_churn_pct": 29.43
+      }
+    },
+    {
+      "slide_number": 3,
+      "title": "Wholesale Partnership Structuring & Retail Cannibalization Guardrails",
+      "headline_takeaway": "Recommended 6_Q4_Tentpole_Fenced_Ad_Hybrid timed for Q4 guidance alignment delivers +306.1K net incremental subscribers and +$28.46M incremental operating income, cutting retail cannibalization from 41.0% (unfenced) down to 11.0% (-30.0 pp).",
+      "verified_metrics": {
+        "optimal_net_subs_k": 306.08,
+        "optimal_incremental_oi_k": 28461.4,
+        "cannibalization_reduction_pp": 30.0
+      }
+    }
+  ]
+}

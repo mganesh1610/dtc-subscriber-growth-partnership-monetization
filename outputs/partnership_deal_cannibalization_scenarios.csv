@@ -1,0 +1,7 @@
+deal_structure,launch_timing,capital_market_aligned,wholesale_discount_pct,effective_partner_arpu_usd,gross_wholesale_adds_k,retail_cannibalization_rate_pct,cannibalized_retail_subs_k,net_incremental_subs_k,gross_partner_revenue_k,cannibalized_retail_rev_loss_k,incremental_operating_income_k
+1_Retail_Only_Baseline,Baseline,False,0.0,9.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2_Unfenced_Telco_Wholesale_Promo,Q2_OffCycle,False,38.0,6.02,347.38,41.0,142.43,123.95,19241.79,16594.17,-4076.56
+3_Broad_Broadband_Soft_Bundle,Q3_MidYear,False,30.0,6.8,245.21,29.0,71.11,120.82,15652.99,8285.18,2367.66
+4_Ad_Supported_Carrier_Tier,Q3_Tentpole,False,25.0,9.63,339.35,16.0,54.3,214.01,31012.07,6326.12,18345.36
+5_Tenure_Fenced_Hard_Bundle,Q4_Guidance_Aligned,True,28.0,6.99,379.49,12.0,45.54,265.57,26098.08,5305.78,13592.34
+6_Q4_Tentpole_Fenced_Ad_Hybrid,Q4_Guidance_Aligned,True,22.0,9.92,428.02,11.0,47.08,306.08,42053.95,5485.62,28461.4
